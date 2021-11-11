@@ -24,12 +24,12 @@ html, body {
     overflow: hidden;
     padding: 0 15px;
     opacity: 0;
-    transition: height 0.5s;
-    height: 0;
+    transition: max-height 0.5s;
+    max-height: 0;
 }
 
 .faq .item .answer.visible {
-    height: 200px;
+    max-height: 1000px;
 }
 
 .faq .item .answer.open {

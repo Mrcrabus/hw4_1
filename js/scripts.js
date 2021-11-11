@@ -15,7 +15,7 @@ window.addEventListener('load', function () {
             answer.classList.remove('visible');
 
 
-            answer.addEventListener('transitionend', function () {
+            answer.addEventListener('finish', function () {
                 answer.classList.remove('open');
 
             });
